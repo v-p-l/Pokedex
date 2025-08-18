@@ -1,7 +1,14 @@
 {
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+
   "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.organizeImports": "explicit",
-    "source.sortMembers": "explicit"
-  }
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
+  },
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  "editor.acceptSuggestionOnCommitCharacter": false
 }
