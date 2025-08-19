@@ -23,9 +23,7 @@ A **Pokédex application** built with **React Native** and **Expo**, allowing us
 
 - **Framework**: [React Native](https://reactnative.dev/) + [Expo](https://expo.dev/)  
 - **Navigation**: [Expo Router](https://expo.github.io/router/) + [React Navigation](https://reactnavigation.org/)  
-- **Data fetching**: [React Query](https://tanstack.com/query/latest)  
-- **UI & System**: Expo libraries (`expo-image`, `expo-status-bar`, `expo-system-ui`, etc.)  
-- **Web compatibility**: `react-native-web` + `react-dom`  
+- **Data fetching**: [React Query](https://tanstack.com/query/latest)
 
 ---
 
