@@ -1,4 +1,4 @@
-# 📱 Pokédex - React Native App
+# ⭐ Pokédex - React Native App
 
 A **Pokédex application** built with **React Native** and **Expo**, allowing users to browse, search, and view detailed information about Pokémon in a smooth and modern interface.
 
