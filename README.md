@@ -4,11 +4,11 @@ A **Pokédex application** built with **React Native** and **Expo**, allowing us
 
 ## 🚀 Features
 
-- 📋 **Pokémon list** with sprites and names.  
-- 🔍 **Search** Pokémon by name or ID.  
-- 📄 **Detail page** with stats, types, and sprite.  
-- 🔄 **Navigation** between list and detail view (using `expo-router` and `react-navigation`).  
-- ⚡ **Optimized data fetching** with [`@tanstack/react-query`](https://tanstack.com/query/latest).  
+- 📋 **Pokémon list** with infinite loader.
+- 🔍 **Local search** Pokémon by name or ID.
+- 📄 **Detail page** with stats, types, and sprite.
+- 🔄 **Navigation** between list and detail view (using `expo-router` and `react-navigation`).
+- ⚡ **Optimized data fetching** with [`@tanstack/react-query`](https://tanstack.com/query/latest).
 - 💫 **Smooth gestures & animations** powered by `react-native-reanimated` and `react-native-gesture-handler`.
 
 ---
