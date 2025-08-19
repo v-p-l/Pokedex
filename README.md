@@ -2,6 +2,14 @@
 
 A **Pokédex application** built with **React Native** and **Expo**, allowing users to browse, search, and view detailed information about Pokémon in a smooth and modern interface.
 
+## 📸 Preview
+
+<img width="180" height="auto" alt="Pokedex - list" src="https://github.com/user-attachments/assets/70277364-bf3c-4748-9b1c-f2f48fa88886" />
+<img width="180" height="auto" alt="Pokedex - list sort" src="https://github.com/user-attachments/assets/22e26afe-7bd6-4989-9532-4432e8f33512" />
+<img width="180" height="auto" alt="Pokedex - detailed view" src="https://github.com/user-attachments/assets/2f629b30-80fb-488f-b125-8ae38b5db4d5" />
+
+---
+
 ## 🚀 Features
 
 - 📋 **Pokémon list** with infinite loader.
@@ -31,7 +39,7 @@ A **Pokédex application** built with **React Native** and **Expo**, allowing us
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/pokedex.git
+   git clone https://github.com/v-p-l/pokedex.git
    cd pokedex
    ```
 
@@ -50,13 +58,6 @@ A **Pokédex application** built with **React Native** and **Expo**, allowing us
    - `a` → Android  
    - `w` → Web  
 
----
-
-## 📸 Preview
-
-<img width="180" height="auto" alt="Pokedex - list" src="https://github.com/user-attachments/assets/70277364-bf3c-4748-9b1c-f2f48fa88886" />
-<img width="180" height="auto" alt="Pokedex - list sort" src="https://github.com/user-attachments/assets/22e26afe-7bd6-4989-9532-4432e8f33512" />
-<img width="180" height="auto" alt="Pokedex - detailed view" src="https://github.com/user-attachments/assets/2f629b30-80fb-488f-b125-8ae38b5db4d5" />
 
 
 
