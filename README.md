@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+# 📱 Pokédex - React Native App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A **Pokédex application** built with **React Native** and **Expo**, allowing users to browse, search, and view detailed information about Pokémon in a smooth and modern interface.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- 📋 **Pokémon list** with sprites and names.  
+- 🔍 **Search** Pokémon by name or ID.  
+- 📄 **Detail page** with stats, types, and sprite.  
+- 🔄 **Navigation** between list and detail view (using `expo-router` and `react-navigation`).  
+- ⚡ **Optimized data fetching** with [`@tanstack/react-query`](https://tanstack.com/query/latest).  
+- 💫 **Smooth gestures & animations** powered by `react-native-reanimated` and `react-native-gesture-handler`.
 
+---
+
+## 🎨 Design system
+
+- **UI**: [FIGMA](https://www.figma.com/community/file/979132880663340794/pokedex)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [React Native](https://reactnative.dev/) + [Expo](https://expo.dev/)  
+- **Navigation**: [Expo Router](https://expo.github.io/router/) + [React Navigation](https://reactnavigation.org/)  
+- **Data fetching**: [React Query](https://tanstack.com/query/latest)  
+- **UI & System**: Expo libraries (`expo-image`, `expo-status-bar`, `expo-system-ui`, etc.)  
+- **Web compatibility**: `react-native-web` + `react-dom`  
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/pokedex.git
+   cd pokedex
+   ```
+
+2. **Install dependencies**:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Start the application**:
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Choose a platform:  
+   - `i` → iOS  
+   - `a` → Android  
+   - `w` → Web  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📸 Preview
 
-## Get a fresh project
+<img width="180" height="auto" alt="Pokedex - list" src="https://github.com/user-attachments/assets/70277364-bf3c-4748-9b1c-f2f48fa88886" />
+<img width="180" height="auto" alt="Pokedex - list sort" src="https://github.com/user-attachments/assets/22e26afe-7bd6-4989-9532-4432e8f33512" />
+<img width="180" height="auto" alt="Pokedex - detailed view" src="https://github.com/user-attachments/assets/2f629b30-80fb-488f-b125-8ae38b5db4d5" />
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
