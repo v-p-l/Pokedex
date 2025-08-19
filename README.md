@@ -2,6 +2,10 @@
 
 A **Pokédex application** built with **React Native** and **Expo**, allowing users to browse, search, and view detailed information about Pokémon in a smooth and modern interface.
 
+Made following this great youtube tutorial by [Grafikart](https://www.youtube.com/watch?v=0EOucUY_F0c) (no source code provided) and:
+- Added **Infinite Horizontal Scrolling** simulation as well as adding API request limitation to the first generation only.
+- Fixed the **animation issue on iOS** due to the SafeAreaView rendered inside an animated parent. [See details](https://github.com/v-p-l/Pokedex/blob/main/components/RootView.tsx)
+
 ## 📸 Preview
 
 <img width="180" height="auto" alt="Pokedex - list" src="https://github.com/user-attachments/assets/70277364-bf3c-4748-9b1c-f2f48fa88886" />
